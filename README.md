@@ -4,7 +4,6 @@
 
 Rigsmith is a browser-based PC building simulator and learning tool. It runs entirely in the browser with no backend, no build step and no install.
 
-![Rigsmith: a wired 1440p build in the 3D workspace with the compatibility panel open](docs/screenshot.png)
 
 ## Features
 
