@@ -103,9 +103,6 @@ tests/
 
 The build is a small JSON document (parts with mount points, cables with endpoints). Every action goes through the store, which validates it, records undo history and notifies the 3D rig and the UI to re-render. Because the scene is rebuilt from state, undo, redo, loading and examples all use the same path.
 
-## Adding hardware
-
-Products are plain objects in [`js/data/catalog.js`](js/data/catalog.js). Add an entry with the fields its category uses and it appears in the catalog, compatibility checks, power estimates, 3D models and scoring automatically. See [docs/ADDING_HARDWARE.md](docs/ADDING_HARDWARE.md).
 
 ## Testing
 
